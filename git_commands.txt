@@ -1,0 +1,57 @@
+Linux command used at terminal :
+
+mkdir -> This command is used to create a direcory named "gitWorkflow"
+cd -> To change the directory 
+touch -> this command is used to create a new file , here to create two html files ,index.html and about.html
+nano index.html  -> this command is used to open the index.html through nano.
+touch form.html -> to create a file named "form.html"
+touch .gitignore -> This command is used to create .gitignore file . That initial dot(.) before name means its a hidden file.
+mkdir temp -> This command is used to create temp directory
+touch app.log -> This command is used to create app.log file 
+echo "undo demonstration." > extra.txt    -> This command is used to create a file named extra.txt and add some content.
+
+Git commands used :
+
+git init  -> This command is used to initialize local git repository
+git branch -M main -> this renames the current branch to main "before it was named as master branch .
+git add . -> Adds all project files to the staging area.That dot sign (.) at the end means all files .
+git commit -m "Initial commit: Adding HTML files"  -> This command is used to commit the initial project state.
+git add index.html -> this command stages changes made to index.html.
+git commit -m "index.html update" -> This command saves the updated HTML file in git history.
+git branch feature -> This command creates a new branch named feature.
+git switch feature -> This command switches to the feature branch.
+git add form.html -> This command stages the newly created form.html file.
+git commit -m "Added form page" -> This command commits the form page to feature branch.
+git switch main -> This command switches back to the main branch.
+git merge feature -> This command merges the feature branch into the main branch.
+git log --oneline --graph --all -> This command displays the commit history, including branches and merges.
+git add .gitignore  -> This command is used to stage gitignore file
+git commit -m "Added gitignore file"  -> This command is used to commit the gitignore file 
+git add extra.txt  -> This command is used to add extra.txt file to staged area
+git commit -m "Added extra.txt" -> This command is used to commit again .
+git reset --soft HEAD~1   -> git reset --soft HEAD~1 removes the latest commit from the current branch history.
+                             The changes made in that commit remain staged.So the latest commit is removed from the commit history.
+                             The extra.txt file still exists.The file appears as a staged change.
+git status -> This command is used to check the current state of our project repository.
+git log --oneline    -> This command is used to display our commit history in a short, compact format.
+git remote add origin https://github.com/ethicalcod/gitWorkflow.git  -> This command is used to connect local repository to GitHub
+git config user.name Shashi -> This command is used to create project specific username , for global username we use --global flag.
+git config user.email 173938981+ethicalcod@users.noreply.github.com -> This command is used to create project specific 
+                                                    			useremail , for global useremail we use --global flag.
+                                                    			
+git push -u origin main   -> This command is used to push the commited files of main branch to remote repository (here its github)
+git push -u origin feature -> This command is used to push the commited files of feature branch to remote repository 
+  
+                                                  			
+                                                     			
+
+
+
+                            
+
+
+
+
+
+
+
