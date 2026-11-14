@@ -43,7 +43,7 @@ git push -u origin main   -> This command is used to push the commited files of 
 git push -u origin feature -> This command is used to push the commited files of feature branch to remote repository 
   
 git reset --soft HEAD~1   ->  This command Removes the latest commit from the current branch, preserves all changes made in that    commit and keep the changes staged for the next commit.                                               			
-                                                     			
+git reset --hard HEAD~1   ->  This command removes latest commit and discard its changes.                                                   			
 
 
 
